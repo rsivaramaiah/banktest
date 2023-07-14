@@ -39,7 +39,7 @@ public class BankTest {
 
         double actualVal = bank.totalInterestPaid();
 
-        assertEquals(EXPECTED_INTEREST_PAID,  actualVal, DOUBLE_DELTA);
+        assertEquals(EXPECTED_INTEREST_PAID,  actualVal, DOUBLE_DELTA);  // done
     }
 
     @Test
